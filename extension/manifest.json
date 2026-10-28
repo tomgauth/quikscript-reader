@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Quikscript Reader",
+  "version": "0.2.0",
+  "description": "Rewrites English web pages in joined Senior Quikscript (American pronunciation), with IPA and French translation on hover, and a dictation page that writes what you say with a pen. Alt+Q toggles.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "offscreen"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Quikscript Reader",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "commands": {
+    "toggle-quikscript": {
+      "suggested_key": {
+        "default": "Alt+Q",
+        "mac": "Alt+Q"
+      },
+      "description": "Switch the page between English and Quikscript"
+    },
+    "open-dictation": {
+      "suggested_key": {
+        "default": "Alt+Shift+Q",
+        "mac": "Alt+Shift+Q"
+      },
+      "description": "Open the Quikscript dictation page"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/qs-data.json",
+        "data/dict.txt.gz",
+        "data/transformation.json",
+        "data/nrl.json",
+        "data/pen-paths.json",
+        "data/ipa.txt.gz"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "use_dynamic_url": true
+    }
+  ],
+  "homepage_url": "https://github.com/tomgauth/quikscript-reader"
+}

@@ -1,0 +1,2967 @@
+[
+{
+"file": "the-manual.html",
+"expect": "\\· | ·May ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·May ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Day+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Et    ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eight ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·At    ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·I     ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Ah    ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Awe   ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Ooze  ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eat   ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Roe | \\- | ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Out   ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May ~x~ ·Et    ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·May ~x~ ·Eight ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May ~b~ ·At    ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May ~b~ ·I     ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May ~b~ ·Ah    ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May ~x~ ·Awe   ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May  | ·Ooze   ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May  | ·Eat    ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "     ·May  | ·Utter  ~x~ ·Roe | ·Day+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "                  ·Utter      ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "         ·May  |  ·Utter.!alt ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Roe  |  ·Utter ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "         ·Fee  |  ·Ah    ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "         ·Roe ~b~ ·Ah    ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "         ·Way ~x~ ·Et     |  ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "         ·Why ~x~ ·Et     |  ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Utter ~x~ ·Roe | ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee.exit.extended ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~6~ ·Pea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Key ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~x~ ·Roe ~b~ ·I",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~x~ ·Roe | ◊ZWNJ | ·Eight",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~x~ ·Awe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~x~ ·Roe ~b~ ·I",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~x~ ·Eight ~b~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~x~ ·Awe ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~x~ ·Eight",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~x~ ·Awe ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·No | ◊space | \\= | ◊space | ·Way.half | ◊ZWNJ | ·Utter.noentry | ◊ZWNJ | ·No.noentry",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe | ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe ~b~ ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way.half ~b~ ·I | ·Low ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way.half ~b~ ·I ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eight ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Et ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Et ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Awe ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.half ~x~ ·Eight ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Eight ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·Awe ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Awe ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Et ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·It ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·It ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.half ~x~ ·It ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Et ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Et ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.half ~x~ ·Et ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·It ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Ox ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Oy ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Ooze ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·It ~b~ ·Day.half ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Ox ~b~ ·Day.half ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Oy ~b~ ·Zoo.half ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Ooze ~b~ ·Zoo.half ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Owe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No.alt ~b~ ·Out",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Et | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No.alt ~b~ ·At | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Eight ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No.alt ~b~ ·I ~x~ ·Fee",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Ox ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No.alt ~b~ ·Eat ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No ~x~ ·Ox ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eight ~b~ ·No.alt | ·Jay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·No.alt ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·I.exit.extended ~x~ ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No ~x~ ·Day+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·No ~b~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Out ·No | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No.alt | ·Cheer",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·Low ~x~ ·Eight",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·Vie+Utter ~x~ ·Roe.exit ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Utter.alt ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·-ing | ·Key ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·May ~x~ ·Utter.alt.reaches-way-back ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·Utter.alt ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee.exit ~x~ ·Utter.alt.reaches-way-back ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Utter.alt.reaches-way-back ~b~ ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Utter.alt ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay | ·Utter.alt ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.exit.extended ~x~ ·Bay | ·Utter.alt ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She | ·Utter.alt ~b~ ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea | ·Utter.alt ~b~ ·See ~t~ ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They | ·Utter.alt ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Jay | ·Utter.alt ~b~ ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Jay | ·Utter.alt ~b~ ·-ing | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Cheer | ·Utter.alt ~b~ ·-ing | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Utter.alt ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Fee ~x~ ·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Bay ~b~ ·Out+Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At | ·Fee | ·Tea ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Low | ·Way+Utter ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At ~b~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·I",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Eight",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Eight ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day+Utter ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day+Utter ~x~ ·No.!alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eat ~b~ ·Vie+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Utter ~x~ ·Roe ~b~ ·See ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·At ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·At ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Utter ~x~ ·Roe | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ·Out",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It | ·Fee",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Owe ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Ye ~b~ ·Ooze",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Ye ~b~ ·Ooze ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·No | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·They+Utter ~x~ ·Roe | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Out ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Owe | ·Vie+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Eight",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Utter.ex-ext-1 ~x~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Eight | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Eight | ·Key ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They | ·At | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~x~ ·Eight ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~x~ ·Eight ~b~ ·Roe | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~x~ ·Et ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~x~ ·Eight",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~x~ ·Owe ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~b~ ·Ooze",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Ooze",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Ooze ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Why | ·I",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe ~b~ ·Low ~x~ ·Day ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Eat ~b~ ·Utter ~x~ ·Roe | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay | ·Key ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay | ·Fee",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·At ~x~ ·No ~x~ ·Ox ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·May ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·May  | ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Day.half ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·Day.half ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·Vie | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Vie ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.!half ~b~ ·May.en-ext-1",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.half ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·It ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May  |  ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May  |  ·Key ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Cheer",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Et ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ox | ·Fee ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Owe ~x~ ·No ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~6~ ·Pea.!half ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~6~ ·Pea.!half ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They+Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Thaw ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Thaw  |  ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~b~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~b~ ·May.en-ext-1 ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Vie ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Why ~x~ ·Et ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·It ~b~ ·Out+Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Day ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Roe.en-ext-1",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Roe.en-ext-1 | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·See    |  ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·She   ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Cheer ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Jay   ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Zoo   ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Day   ~b~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Tea   ~b~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Utter ~x~ ·Bay ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Utter | ◊ZWNJ | ·Pea ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Eight ~b~ ·Day.half ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Eight  |  ·Tea      ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe ~b~ ·At | ·Gay ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe ~b~ ·At | ·Key ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Thaw  |  ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Awe ~b~ ·Low | ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·Utter.alt ~b~ ·Vie ~b~ ·-ing ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Roe | ·It ~b~ ·-ing ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·It ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Thaw | ·It ~b~ ·-ing ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Et | ·Pea.half ~x~ ·It ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Utter ~x~ ·Bay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Utter ~x~ ·Bay ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·She ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·J’ai ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Jay ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eight | ·She ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eight | ·J’ai ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Pea ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Bay ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Tea ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Day+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Key ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Gay ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Thaw | ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·They+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Vie+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·See+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Zoo ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·She ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Jay+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·It ~b~ ·-ing | ·Gay ~b~ ·Low ~x~ ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Low ~x~ ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·May ~x~ ·No | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·May ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·May ~x~ ·Et ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·She | ·Utter.alt ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Et ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Et ~b~ ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Low ~x~ ·Et ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·No ~x~ ·Et ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Roe | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·It ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·It ~b~ ·Utter",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·It ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eat ~b~ ·Utter",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eat ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Ye ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·It ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·It | ·Tea ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Utter ~x~ ·No | \\.",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Eight ~b~ ·No | \\.",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Utter ~x~ ·Jay | \\.",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·It ~x~ ·Jay | \\,",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eat ~b~ ·See ~t~ ·Tea | ·Way ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Awe ~b~ ·Roe | ·Way ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ox ~b~ ·No.alt | ·Way ~x~ ·Day ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Fee ~x~ ·Utter.alt ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\- | ·Fee ~x~ ·Foot | ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Ox ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Ox | ◊ZWNJ | ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At | ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Bay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ox | ·Bay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Fee",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ox | ·Fee",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Roe | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Roe | ·Utter",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·I ~x~ ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~b~ ·Low | ·Owe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea+Oy ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Why ~x~ ·Et ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Tea ~b~ ·Ah ~x~ ·Roe | ·Tea ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·Eat ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eat ~b~ ·Zoo.half | ·It ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Key | ·Way ~x~ ·It | ·Key ~b~ ·See ~t~ ·Key ~b~ ·Roe | ·It | ·Pea.!half | ·Tea ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·At | ·See | ·It ~b~ ·No.alt | ·Eight | ·She ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·Et | ·J’ai+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Out ~x~ ·Roe | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Ox ~b~ ·No.alt ·See ~t~ ·Tea ~b~ ·Utter ~x~ ·No | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Eight ~b~ ·Vie ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Thaw | ·Roe | ·Ooze ~b~ ·Out+Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·I ~x~ ·Fee",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Eat ~b~ ·Low ~x~ ·Day ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~b~ ·At | ·Tea.half ~x~ ·It ~b~ ·See ~t~ ·Fee | ·At | ·Key | ·She ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·It | ·Low ~x~ ·Ox ~b~ ·-ing ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Roe | ·At |·Fee | ·Tea | ·Way+Utter ~x~ ·Roe | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~6~ ·Pea.half ~x~ ·Et ~b~ ·Low | ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~b~ ·Out ~x~ ·No ~x~ ·Day ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It | ·Key | ·Ox ~b~ ·No | ·Utter.alt ~b~ ·May ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et | ·Fee | ·Utter ~x~ ·Roe | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No.alt ~b~ ·See ~t~ ·Tea.half ~x~ ·Et ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Eat | ·Pea ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Utter.alt ~b~ ·Low ~x~ ·Cheer ~b~ ·Utter ~x~ ·Roe ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·It ~b~ ·See ~t~ ·Tea ~b~ ·Utter ~x~ ·Roe | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Eight ~b~ ·See ~t~ ·Tea ~b~ ·Utter ~x~ ·Jay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Low | ·Tea.!half ~b~ ·Utter ~x~ ·Roe ~b~ ·No.alt ~b~ ·Utter | ·Tea.half ~x~ ·It ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Roe | ·Ooze ~b~ ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·It ~x~ ·Zoo | ·No ~x~ ·Et ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Ox ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Eat",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Et ~b~ ·Excite ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Eat ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Owe | ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Owe ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Utter ~x~ ·No | ·Tea.half ~x~ ·Roe | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Low | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·Ah ~x~ ·Roe | ·Jay+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe ~b~ ·Low ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Owe | ·Key ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·I ~x~ ·Day+Eat ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe ~x~ ·Ox ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Tea.half ~x~ ·Roe | ◊ZWNJ | ·Eight ~b~ ·No.alt | ·Jay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ·Eight | ·Key ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Awe ~b~ ·Roe | ·Tea ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~b~ ·I",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Utter ~x~ ·Roe | ·Gay | ·Et ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·It | ·Tea.half ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Zoo ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·They ~b~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Eat ~b~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Tea ~b~ ·I | ·Low ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She | ·Owe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Eat ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Et ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Why ~x~ ·Et ~b~ ·Vie+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Out ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·Out ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~x~ ·Et ~b~ ·No.alt ~b~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~b~ ·Ooze ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She | ◊ZWNJ | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Utter ~x~ ·Cheer",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Owe | ·Low ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Roe | ·Et ~b~ ·No.alt ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter.alt ~b~ ·Low ~x~ ·Ox ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Eight ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ◊ZWNJ | ·I | ·Tea ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eight | ·Bay | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·May ~x~ ·Pea.half ~x~ ·Eight ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ◊ZWNJ | ·I | ◊ZWNJ | ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Key | ◊ZWNJ | ·Roe | ·It | ·Pea.!half | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Roe | ◊ZWNJ | ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He | \\’ | ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·At ~x~ ·Roe | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Out | ·Low | ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~b~ ·Eat ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She | ·Owe | ·Low ~x~ ·Day+|Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~b~ ·Utter ~x~ ·Gay | ·Et | ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~x~ ·Roe | ·Utter ~x~ ·Jay ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Thaw | ·Roe | ·Ooze",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Foot ~x~ ·Day ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Way ~x~ ·Ox | ◊ZWNJ | ·May ~x~ ·Pea ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Pea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.!half | ◊ZWNJ | ·It ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·Out | ◊ZWNJ | ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ◊ZWNJ | ·Eight | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She | ◊ZWNJ | ·Ooze | ◊ZWNJ | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Ye ~b~ ·Ooze",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Key | ·Way ~x~ ·It | ◊ZWNJ | ·Roe ~b~ ·Low ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·It | ·Jay+Utter ~x~ ·No ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·It | ·Fee ~x~ ·Ye ~b~ ·Ooze ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter | ◊ZWNJ | ·See | ·It ~b~ ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Eight | ·Bay ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·Utter | ◊ZWNJ | ·Fee ~x~ ·Et ~b~ ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way+Utter ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Awe ~b~ ·Roe | ◊ZWNJ | ·May | ◊ZWNJ | ·Owe | ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May ~b~ ·At ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Roe | ·Ox ~b~ ·Low ~x~ ·It | ·Key ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He | ·Utter ~b~ ·See ~t~ ·Key ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No ~b~ ·Day | ·It ~b~ ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Awe ~b~ ·Roe ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Tea | ·Owe ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Et ~b~ ·No.alt ~b~ ·See | ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·It ~b~ ·May ~x~ ·It ~b~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Vie | ·It ~b~ ·Low | ·Utter ~x~ ·Jay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Ooze ~b~ ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·May ~x~ ·Pea ~b~ ·Low ~x~ ·Oy",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·Roe | ·Utter ~x~ ·No ~x~ ·Day ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ox ~b~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Jay | ·Ox | ·Bay ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·Et ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Bay ~b~ ·Low | ·I ~x~ ·Jay ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Utter ~x~ ·Zoo | ·Bay ~b~ ·Utter ~x~ ·No ~x~ ·Day ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Roe | ·It | ·Pea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·Et ~b~ ·Day ~b~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter | ·Tea | ·Et ~b~ ·No ~b~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·No ~b~ ·It | ·Bay | ·Ox ~b~ ·Day ~b~ ·It ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·At ~b~ ·May ~x~ ·It ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Ye ~b~ ·Ooze ~b~ ·Tea | ·It ~b~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Ah ~x~ ·Roe | ◊ZWNJ | ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Awe ~b~ ·Roe | ·Day+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Out | ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·May ~x~ ·Pea.half ~x~ ·Ox ~b~ ·See | ◊ZWNJ | ·Utter ~x~ ·Bay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Day ~b~ ·Roe | ◊ZWNJ | ·Eight | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Low | ·I ~x~ ·May | ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Roe | ·Eat",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Pea ~b~ ·At ~x~ ·No | ·Utter.alt ~b~ ·May | ·Ah",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Awe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay | ·Owe | ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Owe | ·She ~b~ ·No.alt ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Vie | ·Out | ◊ZWNJ | ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Eight ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She ~b~ ·It | ·Pea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Pea ~b~ ·Utter | ◊ZWNJ | ·See | ·It | ·Fee ~x~ ·It | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Roe ~x~ ·Awe ~b~ ·Low ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Out+Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·Pea.half ~x~ ·Ox ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Low ~x~ ·It | ·Fee | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Tea ~x~ ·It | ·Et ~b~ ·Roe | ·Utter",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Et ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Fee ~x~ ·Foot ~x~ ·Eight | ·Gay | ·Owe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·Eat ~b~ ·No.alt ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Utter ~x~ ·They+Utter ~x~ ·Roe ~b~ ·No.alt ~b~ ·May ~x~ ·Owe | ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At | ·-ing | ·Gay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Key | ·Awe ~b~ ·Roe | ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·Utter ~x~ ·Roe | ·Owe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·Out ~x~ ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·Low | ·Owe | ·Bay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Eat ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·It | ◊ZWNJ | ·See | ◊ZWNJ | ·Eat ~b~ ·Vie | ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.half ~x~ ·Ox ~b~ ·May | ◊ZWNJ | ·Utter ~x~ ·Jay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Ah ~x~ ·Roe | ·Bay | ·Eight ~b~ ·Roe | ·It ~b~ ·Utter ~x~ ·No ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At ~x~ ·No | ·Tea ~x~ ·It | ·Pea | ·Owe | ·Day+Eat ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No ~x~ ·Eight ~b~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Vie+Utter ~x~ ·Roe | ·Jay | ◊ZWNJ | ·It ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Key | ·Way.!half | ·Eat ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No | ·Utter ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At | ·Fee | ·Tea ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea | ·Way ~x~ ·Et ~b~ ·No.alt | ·Tea ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Awe ~b~ ·Roe | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No.alt | ·Tea ~x~ ·Roe | ·Eat | ·Gay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·See ~6~ ·Pea ~b~ ·At ~x~ ·No ~x~ ·It | ·She",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·I | ·Tea ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay | ·Owe | ·Low ~x~ ·Day | \\- | ·He ~b~ ·Utter ~x~ ·No | ·Tea ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea ~x~ ·Roe ~b~ ·At ~x~ ·Jay | ·It | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Utter.alt ~b~ ·Low ~x~ ·Et ~b~ ·May ~x~ ·No ~x~ ·It | ·Tea ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low | ·At | ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At | ·Key | ◊ZWNJ | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Utter ~x~ ·Roe | ·Eat ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Et ~b~ ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ◊ZWNJ | ·It ~b~ ·Zoo.half ~b~ ·I ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Eight ~b~ ·Low ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Day ~b~ ·Roe ~x~ ·Eight | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "\\· | ·Fee | ·Ah ~x~ ·They+Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·At ~x~ ·Day+Utter ~x~ ·May",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·Ah ~x~ ·Roe | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·Roe ~x~ ·Awe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ◊ZWNJ | ·It ~b~ ·May ~x~ ·It ~b~ ·No.alt ~b~ ·Ooze | ·Tea.half ~x~ ·It ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·She ~b~ ·Eat | \\- | ·At | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·It | ·Gay ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Ox | ·Gay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Utter.alt ~b~ ·Low | ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·May | ◊ZWNJ | ·Out | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·I ~x~ ·No ~x~ ·Day ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day ~b~ ·It | ·Tea ~b~ ·Utter ~x~ ·Roe ~b~ ·May ~x~ ·It ~b~ ·No.alt ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No ~x~ ·Day+Utter ~x~ ·Roe | \\- | ·Jay | ·Awe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ◊ZWNJ | ·Utter ~x~ ·May | ·Thaw | ·It ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·No.alt ~b~ ·Eat | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·I | \\- | ·Bay ~b~ ·Roe | ·Et ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Way ~x~ ·Eight | ·Key | ◊ZWNJ | ·Utter ~x~ ·Roe | ·It | ·She",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·Low ~x~ ·It | ·Gay ~b~ ·Utter ~x~ ·No | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe | ·Owe | ·Gay",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He.half ~x~ ·It | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee | ·At ~x~ ·No | ·See | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~6~ ·Pea.half ~x~ ·Ox ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea.half ~x~ ·Roe | ·Ooze ~b~ ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Et ~b~ ·May ~x~ ·Pea ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Cheer ~b~ ·I | ·Low ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·Et | ◊ZWNJ | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·At | ·Key",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe ~b~ ·I ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Et ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·He ~b~ ·Eat ~b~ ·Low ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Eight ~b~ ·Roe",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Utter ~x~ ·No | ·Tea.half ~x~ ·It ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Way ~x~ ·Ox ~b~ ·No.alt | ◊ZWNJ | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key | ·Ox ~b~ ·No.alt | ·Fee ~x~ ·It ~b~ ·Day+Utter.half ~x~ ·No | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay | ◊ZWNJ | ·It | ·Gay ~b~ ·At ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Roe ~x~ ·Eight ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Ye ~b~ ·Ooze ~b~ ·Thaw | ·Fee ~x~ ·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay | ·Foot ~x~ ·Zoo | ·Utter.alt ~b~ ·May ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Et ~b~ ·Excite | ·Pea.half ~x~ ·Et ~b~ ·Roe | ·It ~b~ ·May ~x~ ·No | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ◊ZWNJ | ·It ~b~ ·See ~t~ ·Key ~b~ ·No.alt | ·Tea.half ~x~ ·It ~b~ ·No.alt | ·Ye ~b~ ·Ooze ~b~ ·Day.half",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day+Utter ~x~ ·Roe ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ◊ZWNJ | ·Utter ~x~ ·Bay | ·Jay | ·Et | ·Key | ·Tea ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Low ~x~ ·Et ~b~ ·-ing ~b~ ·Thaw",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Pea ~b~ ·At | ·See ~t~ ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·It ~b~ ·No.alt | ◊ZWNJ | ·Tea",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See+Utter ~x~ ·Roe | ◊ZWNJ | ·Vie | ·It | ◊ZWNJ | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Key ~b~ ·No.alt ~b~ ·See | ·It ~b~ ·Day+Utter.half ~x~ ·Roe | ◊ZWNJ | ·Eight | ·She ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See | ·It ~b~ ·Excite | ·Tea.half ~x~ ·It | \\- | ·Fee | ·I | ·Vie",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Fee ~x~ ·Roe ~b~ ·At | ·-ing | ·Key ~b~ ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Gay ~b~ ·Low | ·At | ·See",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Bay ~b~ ·Roe | ·At ~x~ ·No ~x~ ·Day | ◊ZWNJ | ·It",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·See ~t~ ·Tea ~b~ ·Eat ~b~ ·Vie+Utter ~x~ ·No | ·See+Utter ~x~ ·No",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Tea.half ~x~ ·Roe | ◊ZWNJ | ·At | ·Vie ~b~ ·Low ~x~ ·Zoo",
+"canonical": true
+},
+{
+"file": "the-manual.html",
+"expect": "·Day | ·Ox ~b~ ·-ing | ·Key | ◊ZWNJ | ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·See ~b~ ·Out ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Day+Eat ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Fee | ·Eat ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·At ~x~ ·Roe | ·It ~b~ ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Jay | ·Owe ~x~ ·No ~x~ ·Zoo ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Day ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Bay ~b~ ·Eat | ·It ~b~ ·-ing ~b~ ·Zoo.half",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Utter ~x~ ·No ~x~ ·Day ~b~ ·Ooze | ·It ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Utter ~x~ ·No | ·Thaw | ·It ~b~ ·-ing | ·Key | ·It ~b~ ·-ing ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Way ~x~ ·It ~b~ ·Low ~x~ ·It ~b~ ·-ing ~b~ ·No.alt | ·Et ~b~ ·See",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·At ~x~ ·No | ·-ing",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·At ~x~ ·Roe | ·It | ·It ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Tea ~x~ ·Roe ~b~ ·I ~x~ ·Bay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Fee | ·I ~x~ ·No | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Awe ~b~ ·Roe | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·At ~x~ ·No ~x~ ·It ~b~ ·May | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·It ~b~ ·No.alt ~b~ ·It | ·She ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Owe ~x~ ·Fee | ·It | ·She ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·May ~x~ ·It ~b~ ·See | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Roe ~b~ ·I | ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Low ~x~ ·Et ~b~ ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Bay | ·Et ~b~ ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Roe ~b~ ·I ~x~ ·Fee | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·Utter | ◊ZWNJ | ·Pea ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Eat | ·Gay ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Eat ~b~ ·Zoo ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Day | ·Et ~b~ ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·See | ·It ~b~ ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·At | ·Vie | ◊ZWNJ | ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Fee | ·I ~x~ ·No | ·Utter.alt ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Awe ~b~ ·Roe | ·Utter.alt ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·At ~x~ ·No ~x~ ·It ~b~ ·May | ·At | ·Low ~x~ ·It | ·Tea.half ~x~ ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·It ~b~ ·No.alt ~b~ ·It | ·She | ·Utter.alt ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Owe ~x~ ·Fee | ·It | ·She | ·Utter.alt ~b~ ·Low ~x~ ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Low ~x~ ·Et ~b~ ·Vie | ·Utter.alt ~b~ ·Low | ·-ing",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Day | ·Et ~b~ ·Vie | ·Utter.alt ~b~ ·Low ~x~ ·Roe | ·It",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·At | ·Vie | ·Utter.alt ~b~ ·Low | ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Roe ~b~ ·I ~x~ ·Fee | ·Utter.alt ~b~ ·Low | ·May ~x~ ·Utter.reaches-way-back ~b~ ·No.alt",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·Utter | ◊ZWNJ | ·Pea ~b~ ·Low ~x~ ·Et ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Key ~b~ ·Utter | ◊ZWNJ | ·Pea ~b~ ·Low ~x~ ·It ~b~ ·-ing",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·See ~6~ ·Pea ~b~ ·At ~x~ ·No ~x~ ·Ye ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Bay | ·Et ~b~ ·Roe | ·It | ·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Vie | ·It ~b~ ·Zoo.half | ·Ye ~b~ ·Ooze | ·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Low | ·Oy | ·Utter.alt ~b~ ·Low",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "\\- | ·Utter ~x~ ·No | ·Tea",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "\\- | ·Utter ~x~ ·No | ·See",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Owe | ·Vie+Utter ~x~ ·Roe ~b~ ·Low | ·At ~x~ ·No ~x~ ·Day",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·See | ·It ~b~ ·May ~x~ ·Et ~b~ ·No.alt ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "·Utter ~x~ ·No | ·May ~b~ ·At ~x~ ·No",
+"canonical": true
+},
+{
+"file": "extra-senior-words.html",
+"expect": "\\- | ·Utter ~x~ ·Roe",
+"canonical": true
+},
+{
+"file": "index.html",
+"expect": "·Thaw | ·Awe ~b~ ·Tea",
+"canonical": true
+},
+{
+"file": "index.html",
+"expect": "·Utter ~x~ ·Roe.!baseline | ·Out ~x~ ·No ~x~ ·Day",
+"canonical": true
+}
+]

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quikscript Reader</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1f2a3a; --soft: #5b6472; --line: #dcd8cf; --accent: #3b5b8c; --accent-soft: #e6edf7; --ok: #3f7a52; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17191d; --fg: #e8e6e1; --soft: #a3a8b0; --line: #343840; --accent: #8fb0e3; --accent-soft: #232c3a; --ok: #7fbf92; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 290px; background: var(--bg); color: var(--fg); font: 13px/1.45 system-ui, -apple-system, sans-serif; }
+  .wrap { padding: 14px; display: grid; gap: 12px; }
+  h1 { margin: 0; font-size: 15px; font-weight: 650; }
+  .sub { color: var(--soft); font-size: 12px; margin-top: 2px; }
+  button.big {
+    width: 100%; padding: 9px 12px; border-radius: 9px; border: 1px solid var(--accent);
+    background: var(--accent); color: var(--bg); font: 600 13px system-ui, sans-serif; cursor: pointer;
+  }
+  button.big.on, button.big.alt { background: transparent; color: var(--accent); }
+  button.big:disabled { opacity: .5; cursor: default; }
+  .row { display: grid; gap: 6px; border-top: 1px solid var(--line); padding-top: 10px; }
+  .row h2 { margin: 0; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--soft); }
+  label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+  .seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg button { border: 0; background: transparent; color: var(--fg); padding: 6px; font: inherit; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  input[type=range] { width: 100%; accent-color: var(--accent); }
+  input[type=checkbox] { accent-color: var(--accent); }
+  select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 4px; }
+  .hint { color: var(--soft); font-size: 11.5px; }
+  kbd { border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; font: 11px ui-monospace, Menlo, monospace; }
+  .note { color: var(--soft); font-size: 11.5px; }
+  .tr-status { font-size: 11.5px; color: var(--soft); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .tr-status.ok { color: var(--ok); }
+  button.small { font: 500 12px system-ui, sans-serif; padding: 4px 9px; border-radius: 7px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <h1>Quikscript Reader</h1>
+    <div class="sub">American English, joined Senior</div>
+  </div>
+  <button id="toggle" class="big" type="button">Switch page to Quikscript</button>
+  <button id="dictation" class="big alt" type="button">Open dictation</button>
+  <div class="hint">Shortcuts: <kbd>⌥ Q</kbd> for the page, <kbd>⌥ ⇧ Q</kbd> for dictation. Change them in <code>chrome://extensions/shortcuts</code>.</div>
+
+  <div class="row">
+    <div class="seg" role="group" aria-label="Style">
+      <button type="button" id="st-senior" aria-pressed="true">Senior, joined</button>
+      <button type="button" id="st-junior" aria-pressed="false">Junior, separate</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <label for="scale">Size <span id="scale-v"></span></label>
+    <input id="scale" type="range" min="0.7" max="2" step="0.05" value="1">
+  </div>
+
+  <div class="row">
+    <h2>On hover</h2>
+    <label><input type="checkbox" id="hoverIpa" checked> Pronunciation (IPA)</label>
+    <label><input type="checkbox" id="hoverTr" checked> Translation into <select id="trLang" aria-label="Translation language"></select></label>
+    <label><input type="checkbox" id="hover" checked> English word</label>
+    <div class="tr-status" id="tr-status"></div>
+  </div>
+
+  <div class="row">
+    <h2>Display</h2>
+    <label><input type="checkbox" id="interlinear"> English above each word</label>
+    <label><input type="checkbox" id="animate"> Write with a pen when a page switches to Quikscript</label>
+  </div>
+  <div class="note" id="note" hidden></div>
+</div>
+<script src="lib/qs-translate-ui.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

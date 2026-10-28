@@ -1,0 +1,1087 @@
+{
+"wordReplace": [
+[
+"also",
+[
+"awe low see"
+]
+],
+[
+"and",
+[
+"no"
+]
+],
+[
+"are",
+[
+"roe"
+]
+],
+[
+"as",
+[
+"at"
+]
+],
+[
+"be",
+[
+"bay"
+]
+],
+[
+"because",
+[
+"bay key zoo"
+]
+],
+[
+"been",
+[
+"bay no"
+]
+],
+[
+"before",
+[
+"bay fee"
+]
+],
+[
+"being",
+[
+"bay ing"
+]
+],
+[
+"but",
+[
+"bay tea"
+]
+],
+[
+"can",
+[
+"key"
+]
+],
+[
+"can't",
+[
+"key no tea"
+]
+],
+[
+"come",
+[
+"key may"
+]
+],
+[
+"comes",
+[
+"key may zoo"
+]
+],
+[
+"coming",
+[
+"key may ing"
+]
+],
+[
+"could",
+[
+"key day"
+]
+],
+[
+"couldn't",
+[
+"key day no tea"
+]
+],
+[
+"did",
+[
+"day day"
+]
+],
+[
+"didn't",
+[
+"day day no tea"
+]
+],
+[
+"do",
+[
+"day"
+]
+],
+[
+"doing",
+[
+"day ing"
+]
+],
+[
+"don't",
+[
+"day no tea"
+]
+],
+[
+"ever",
+[
+"et vie"
+]
+],
+[
+"every",
+[
+"et vie it"
+]
+],
+[
+"for",
+[
+"fee"
+]
+],
+[
+"from",
+[
+"fee may"
+]
+],
+[
+"go",
+[
+"gay"
+]
+],
+[
+"going",
+[
+"gay ing"
+]
+],
+[
+"gone",
+[
+"gay no"
+]
+],
+[
+"good",
+[
+"gay day"
+]
+],
+[
+"have",
+[
+"he vie"
+]
+],
+[
+"haven't",
+[
+"he vie no tea"
+]
+],
+[
+"he",
+[
+"he"
+]
+],
+[
+"him",
+[
+"he may"
+]
+],
+[
+"his",
+[
+"he zoo"
+]
+],
+[
+"into",
+[
+"it no tea"
+]
+],
+[
+"is",
+[
+"zoo"
+]
+],
+[
+"it",
+[
+"it"
+]
+],
+[
+"it's",
+[
+"it see"
+]
+],
+[
+"its",
+[
+"it see"
+]
+],
+[
+"little",
+[
+"low it low"
+]
+],
+[
+"made",
+[
+"may day"
+]
+],
+[
+"make",
+[
+"may key"
+]
+],
+[
+"making",
+[
+"may key ing"
+]
+],
+[
+"me",
+[
+"may"
+]
+],
+[
+"never",
+[
+"no et vie"
+]
+],
+[
+"of",
+[
+"vie"
+]
+],
+[
+"often",
+[
+"awe fee no"
+]
+],
+[
+"on",
+[
+"ox"
+]
+],
+[
+"only",
+[
+"owe no it"
+]
+],
+[
+"people",
+[
+"pea pea low"
+]
+],
+[
+"perhaps",
+[
+"pea pea see"
+]
+],
+[
+"shall",
+[
+"she at low",
+"she low"
+]
+],
+[
+"she",
+[
+"she"
+]
+],
+[
+"should",
+[
+"she day"
+]
+],
+[
+"so",
+[
+"see"
+]
+],
+[
+"than",
+[
+"they no"
+]
+],
+[
+"that",
+[
+"they tea"
+]
+],
+[
+"the",
+[
+"they"
+]
+],
+[
+"these",
+[
+"they zoo"
+]
+],
+[
+"think",
+[
+"thaw"
+]
+],
+[
+"thinking",
+[
+"thaw ing"
+]
+],
+[
+"this",
+[
+"they see"
+]
+],
+[
+"time",
+[
+"tea may"
+]
+],
+[
+"times",
+[
+"tea may zoo"
+]
+],
+[
+"to",
+[
+"tea"
+]
+],
+[
+"very",
+[
+"vie roe"
+]
+],
+[
+"we",
+[
+"way"
+]
+],
+[
+"what",
+[
+"why"
+]
+],
+[
+"whatever",
+[
+"why vie"
+]
+],
+[
+"which",
+[
+"cheer"
+]
+],
+[
+"will",
+[
+"low"
+]
+],
+[
+"with",
+[
+"way it"
+]
+],
+[
+"without",
+[
+"way it out tea"
+]
+],
+[
+"would",
+[
+"way day"
+]
+],
+[
+"wouldn't",
+[
+"way day no tea"
+]
+],
+[
+"you",
+[
+"ye"
+]
+],
+[
+"your",
+[
+"ye roe"
+]
+],
+[
+"yours",
+[
+"ye roe zoo"
+]
+]
+],
+"regexReplace": [
+[
+"AH0 L IY0",
+"it low it",
+"suffix",
+"ily$"
+],
+[
+"L IY0",
+"low it",
+"suffix",
+"(ly|le)$"
+],
+[
+"IY0",
+"it",
+"suffix",
+"(y|ee|ie)"
+],
+[
+"(AH0|IH0) D",
+"day",
+"suffix",
+"ed$"
+],
+[
+"(AH0|IH0) S",
+"see",
+"suffix",
+"es$"
+],
+[
+"(AH0|IH0) Z",
+"zoo",
+"suffix",
+"es$"
+],
+[
+"(B|CH|D|DH|F|G|JH|K|L|M|N|NG|P|R|S|SH|T|TH|V|Z|ZH) (S)(?=[ a-z]*$)",
+"$1 see",
+"",
+"s$"
+],
+[
+"(B|CH|D|DH|F|G|JH|K|L|M|N|NG|P|R|S|SH|T|TH|V|Z|ZH) (Z)(?=[ a-z]*$)",
+"$1 zoo",
+"",
+"s$"
+],
+[
+"(B|CH|D|DH|F|G|JH|K|L|M|N|NG|P|R|S|SH|T|TH|V|Z|ZH) (AH0 L)(?=[ a-z]*$)",
+"$1 low",
+"",
+"(al|el|le|il)$"
+],
+[
+"AH0 T IY0",
+"it tea it",
+"suffix"
+],
+[
+"L AH0 N D",
+"low no day",
+"suffix"
+],
+[
+"M AH0 N T",
+"may no tea",
+"suffix"
+],
+[
+"M AH0 N",
+"may no",
+"suffix",
+"man$"
+],
+[
+"M AH0 N",
+"may et no",
+"suffix",
+"men$"
+],
+[
+"AH0 S",
+"et see",
+"suffix",
+"ess$"
+],
+[
+"AH0 S T",
+"et see tea",
+"suffix",
+"est$"
+],
+[
+"AA\\d",
+"ah",
+"suffix"
+],
+[
+"AH0 N",
+"utter no",
+"prefix",
+"^un"
+],
+[
+"P R AH0",
+"pea roe it",
+"prefix",
+"^pre"
+],
+[
+"R AH0",
+"roe it",
+"prefix",
+"^re"
+],
+[
+"K AH0 N",
+"K N",
+"prefix"
+],
+[
+"K AH0 M",
+"K M",
+"prefix"
+],
+[
+"(T) (AH0 L)",
+"$1 L",
+"plain"
+],
+[
+"\\b((?!IY\\d)[a-zA-Z0-9]+) (IH0 NG)\\b",
+"$1 ing",
+"g"
+],
+[
+"IY0 ER0",
+"it utter R",
+"plain"
+],
+[
+"(IH1|IY1) R",
+"eat utter R",
+"plain"
+],
+[
+"IY0 AH0",
+"it utter",
+"plain"
+],
+[
+"JH AH0 N",
+"JH N",
+"plain"
+],
+[
+"SH AH0 N",
+"SH N",
+"plain"
+],
+[
+"ZH AH0 N",
+"ZH N",
+"plain"
+],
+[
+"AA\\d R",
+"ah R",
+"plain"
+],
+[
+"EH\\d R",
+"eight R",
+"plain"
+],
+[
+"HH W",
+"why",
+"plain"
+],
+[
+"R IY0",
+"R it",
+"plain"
+],
+[
+"AA",
+"ox",
+"plain"
+],
+[
+"AA0",
+"ox",
+"plain"
+],
+[
+"AA1",
+"ox",
+"plain"
+],
+[
+"AA2",
+"ox",
+"plain"
+],
+[
+"AE",
+"at",
+"plain"
+],
+[
+"AE0",
+"at",
+"plain"
+],
+[
+"AE1",
+"at",
+"plain"
+],
+[
+"AE2",
+"at",
+"plain"
+],
+[
+"AH",
+"utter",
+"plain"
+],
+[
+"AH0",
+"utter",
+"plain"
+],
+[
+"AH1",
+"utter",
+"plain"
+],
+[
+"AH2",
+"utter",
+"plain"
+],
+[
+"AO",
+"awe",
+"plain"
+],
+[
+"AO0",
+"awe",
+"plain"
+],
+[
+"AO1",
+"awe",
+"plain"
+],
+[
+"AO2",
+"awe",
+"plain"
+],
+[
+"AW",
+"out",
+"plain"
+],
+[
+"AW0",
+"out",
+"plain"
+],
+[
+"AW1",
+"out",
+"plain"
+],
+[
+"AW2",
+"out",
+"plain"
+],
+[
+"AY",
+"i",
+"plain"
+],
+[
+"AY0",
+"i",
+"plain"
+],
+[
+"AY1",
+"i",
+"plain"
+],
+[
+"AY2",
+"i",
+"plain"
+],
+[
+"B",
+"bay",
+"plain"
+],
+[
+"CH",
+"cheer",
+"plain"
+],
+[
+"D",
+"day",
+"plain"
+],
+[
+"DH",
+"they",
+"plain"
+],
+[
+"EH",
+"et",
+"plain"
+],
+[
+"EH0",
+"et",
+"plain"
+],
+[
+"EH1",
+"et",
+"plain"
+],
+[
+"EH2",
+"et",
+"plain"
+],
+[
+"ER",
+"utter roe",
+"plain"
+],
+[
+"ER0",
+"utter roe",
+"plain"
+],
+[
+"ER1",
+"utter roe",
+"plain"
+],
+[
+"ER2",
+"utter roe",
+"plain"
+],
+[
+"EY",
+"eight",
+"plain"
+],
+[
+"EY0",
+"eight",
+"plain"
+],
+[
+"EY1",
+"eight",
+"plain"
+],
+[
+"EY2",
+"eight",
+"plain"
+],
+[
+"F",
+"fee",
+"plain"
+],
+[
+"G",
+"gay",
+"plain"
+],
+[
+"HH",
+"he",
+"plain"
+],
+[
+"IH",
+"it",
+"plain"
+],
+[
+"IH0",
+"it",
+"plain"
+],
+[
+"IH1",
+"it",
+"plain"
+],
+[
+"IH2",
+"it",
+"plain"
+],
+[
+"IY",
+"eat",
+"plain"
+],
+[
+"IY0",
+"eat",
+"plain"
+],
+[
+"IY1",
+"eat",
+"plain"
+],
+[
+"IY2",
+"eat",
+"plain"
+],
+[
+"JH",
+"jay",
+"plain"
+],
+[
+"K",
+"key",
+"plain"
+],
+[
+"L",
+"low",
+"plain"
+],
+[
+"M",
+"may",
+"plain"
+],
+[
+"N",
+"no",
+"plain"
+],
+[
+"NG",
+"ing",
+"plain"
+],
+[
+"OW",
+"owe",
+"plain"
+],
+[
+"OW0",
+"owe",
+"plain"
+],
+[
+"OW1",
+"owe",
+"plain"
+],
+[
+"OW2",
+"owe",
+"plain"
+],
+[
+"OY",
+"oy",
+"plain"
+],
+[
+"OY0",
+"oy",
+"plain"
+],
+[
+"OY1",
+"oy",
+"plain"
+],
+[
+"OY2",
+"oy",
+"plain"
+],
+[
+"P",
+"pea",
+"plain"
+],
+[
+"R",
+"roe",
+"plain"
+],
+[
+"S",
+"see",
+"plain"
+],
+[
+"SH",
+"she",
+"plain"
+],
+[
+"T",
+"tea",
+"plain"
+],
+[
+"TH",
+"thaw",
+"plain"
+],
+[
+"UH",
+"foot",
+"plain"
+],
+[
+"UH0",
+"foot",
+"plain"
+],
+[
+"UH1",
+"foot",
+"plain"
+],
+[
+"UH2",
+"foot",
+"plain"
+],
+[
+"UW",
+"ooze",
+"plain"
+],
+[
+"UW0",
+"ooze",
+"plain"
+],
+[
+"UW1",
+"ooze",
+"plain"
+],
+[
+"UW2",
+"ooze",
+"plain"
+],
+[
+"V",
+"vie",
+"plain"
+],
+[
+"W",
+"way",
+"plain"
+],
+[
+"Y",
+"ye",
+"plain"
+],
+[
+"Z",
+"zoo",
+"plain"
+],
+[
+"ZH",
+"j'ai",
+"plain"
+]
+]
+}

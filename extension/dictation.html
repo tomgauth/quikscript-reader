@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quikscript Dictation</title>
+<link rel="icon" href="icons/48.png">
+<link rel="stylesheet" href="dictation.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand">
+    <img src="icons/48.png" alt="" width="22" height="22">
+    <span>Quikscript Dictation</span>
+  </div>
+  <div class="center">
+    <button id="mic" class="mic" type="button" aria-pressed="false" title="Listen (Space)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3.5 3.5 0 0 0 3.5-3.5v-5a3.5 3.5 0 0 0-7 0v5A3.5 3.5 0 0 0 12 15Zm6-3.5a6 6 0 0 1-12 0H4.5a7.5 7.5 0 0 0 6.75 7.46V21h1.5v-2.04a7.5 7.5 0 0 0 6.75-7.46H18Z"/></svg>
+      <span id="mic-label">Listen</span>
+    </button>
+    <span id="status" class="status" aria-live="polite">Speak English and watch it written with a pen.</span>
+  </div>
+  <div class="tools">
+    <button class="tool" id="settings-btn" type="button" aria-expanded="false" aria-controls="settings" title="Settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10m4 0h2M4 17h4m4 0h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+    </button>
+    <button class="tool" id="copy" type="button" title="Copy the English">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="12" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></svg>
+    </button>
+    <button class="tool" id="image" type="button" title="Download as image">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14"/></svg>
+    </button>
+    <button class="tool" id="clear" type="button" title="Clear everything">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M10 7V5h4v2m-7 0 1 12h8l1-12"/></svg>
+    </button>
+  </div>
+</header>
+
+<section id="settings" class="settings" hidden>
+  <label>Pen speed <input id="speed" type="range" min="0.4" max="2.5" step="0.1" value="1"> <output id="speed-v"></output></label>
+  <label>Size <input id="size" type="range" min="28" max="80" step="2" value="46"> <output id="size-v"></output></label>
+  <label><input id="caption" type="checkbox" checked> English caption at the bottom</label>
+  <label><input id="hoverIpa" type="checkbox" checked> IPA on hover</label>
+  <label><input id="hoverTr" type="checkbox" checked> Translation on hover into <select id="trLang" aria-label="Translation language"></select></label>
+  <label><input id="hover" type="checkbox" checked> English word on hover</label>
+  <span id="tr-status" class="tr-status"></span>
+</section>
+
+<main id="scroll" class="scroll">
+  <div id="paper" class="paper" aria-live="off"></div>
+  <p id="empty" class="empty">Click <b>Listen</b> or press <kbd>Space</kbd>, then speak English.<br>You can also type a sentence at the bottom.</p>
+</main>
+
+<footer class="foot">
+  <div id="live" class="live" aria-live="polite"></div>
+  <form id="type" class="type" autocomplete="off">
+    <input id="type-in" type="text" placeholder="Or type an English sentence and press Enter" aria-label="English sentence to write">
+  </form>
+</footer>
+<div id="toast" class="toast" role="status"></div>
+
+<script src="engine/qs-core.js"></script>
+<script src="engine/qs-senior.js"></script>
+<script src="lib/qs-boot.js"></script>
+<script src="lib/qs-hover.js"></script>
+<script src="lib/qs-translate-ui.js"></script>
+<script src="dictation.js"></script>
+</body>
+</html>
