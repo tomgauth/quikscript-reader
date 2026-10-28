@@ -26,6 +26,7 @@
     s.textContent = `
       qsr-w { display: inline-block; white-space: nowrap; line-height: 1; position: relative; }
       qsr-w > svg { display: inline-block; }
+      qsr-g { white-space: nowrap; }
       html.qsr-interlinear qsr-w { margin-top: 0.9em; min-width: calc(var(--qsr-n, 4) * 0.3em + 0.15em); text-align: center; }
       html.qsr-interlinear qsr-w::before {
         content: attr(data-en); position: absolute; left: 50%; transform: translateX(-50%);
@@ -95,13 +96,23 @@
     const animate = settings.animate && settings.style !== 'junior' && onScreen(parent);
     const frag = document.createDocumentFragment();
     const fresh = [];
-    for (const t of QSCore.tokenize(text)) {
-      if (t.text != null) frag.appendChild(document.createTextNode(t.text));
-      else {
-        const el = wordEl(t.word, t.name, animate);
-        if (animate) fresh.push(el);
-        frag.appendChild(el);
-      }
+    const toks = QSCore.tokenize(text).map(t => ({ ...t }));
+    for (let i = 0; i < toks.length; i++) {
+      const t = toks[i];
+      if (t.text != null) { frag.appendChild(document.createTextNode(t.text)); continue; }
+      const el = wordEl(t.word, t.name, animate);
+      if (animate) fresh.push(el);
+      // punctuation touching the word (full stop, comma, quotes, brackets) stays on its line
+      const prev = frag.lastChild;
+      const before = prev && prev.nodeType === Node.TEXT_NODE ? prev.nodeValue.match(/\S+$/) : null;
+      const next = toks[i + 1];
+      const after = next && next.text != null ? next.text.match(/^\S+/) : null;
+      if (!before && !after) { frag.appendChild(el); continue; }
+      const g = document.createElement('qsr-g');
+      if (before) { prev.nodeValue = prev.nodeValue.slice(0, -before[0].length); g.appendChild(document.createTextNode(before[0])); }
+      g.appendChild(el);
+      if (after) { g.appendChild(document.createTextNode(after[0])); next.text = next.text.slice(after[0].length); }
+      frag.appendChild(g);
     }
     const wrap = document.createElement('qsr-run');
     wrap.appendChild(frag);
