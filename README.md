@@ -8,6 +8,8 @@ A Chrome extension for reading and writing [Quikscript](https://www.quikscript.n
 
 **[⬇ Download the latest version](../../releases/latest)** (free, Chrome on desktop). Installing takes a minute: see [Install](#install).
 
+![Alt+Q switches a web page to joined Senior Quikscript, hovering a word shows its IPA and translation, and the pen can write the page](docs/page-demo.gif)
+
 ![Dictation: spoken English written stroke by stroke](docs/demo.gif)
 
 | A page in English | The same page in Senior Quikscript |
