@@ -6,6 +6,8 @@ A Chrome extension for reading and writing [Quikscript](https://www.quikscript.n
 - **Hover a word** to see its American pronunciation in IPA, a translation and the English word.
 - **Dictation** (Alt+Shift+Q): speak English and watch the words being written with a pen, stroke by stroke, across the joins.
 
+**[⬇ Download the latest version](../../releases/latest)** (free, Chrome on desktop). Installing takes a minute: see [Install](#install).
+
 ![Dictation: spoken English written stroke by stroke](docs/demo.gif)
 
 | A page in English | The same page in Senior Quikscript |
